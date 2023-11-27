@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+    <input type="checkbox" id="menu-toggle">
+    <div class="sidebar">
+        <div class="side-header">
+            <h3> <img src="img\logo-mini.svg" width="23px" height="40px" alt="">
+                <span>Purple</span>
+            </h3>
+        </div>
+        <div class="side-content">
+            <div class="profile">
+                <div class="profile-img bg-img" style="background-image: url(img/1.jpeg)"></div>
+                <h4>David Green</h4>
+            </div>
+            <div class="side-menu">
+                <ul>
+                    <li>
+                        <a href="" class="active">
+                            <span class="fa fa-home"></span>
+                            <small>Dashboard</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="side-icon" href="">
+                            <span class="fa fa-user"></span>
+                            <small>Profile</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="side-icon" href="">
+                            <span class="fa fa-envelope"></span>
+                            <small>Mailbox</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="side-icon" href="">
+                            <span class="fa fa-clipboard"></span>
+                            <small>Projects</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="side-icon" href="">
+                            <span class="fa fa-shopping-cart"></span>
+                            <small>Orders</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="side-icon" href="">
+                            <span class="fa fa-tasks"></span>
+                            <small>Tasks</small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <div class="header-content">
+                <div class="menu-search">
+                    <label for="menu-toggle">
+                        <span class="fa fa-bars"></span>
+                    </label>
+                    <label for="">
+                        <span class="fa fa-search"></span>
+                    </label>
+                </div>
+
+                <div class="header-menu">
+                    <div class="noti-icon">
+                        <span class="fa fa-envelope"></span>
+                    </div>
+                    <div class="noti-icon">
+                        <span class="fa fa-bell"></span>
+                    </div>
+
+                    <div class="user">
+                        <div class="bg-img" style="background-image: url(img/1.jpeg)"></div>
+                        <span class="fa fa-power-off"></span>
+                        <span>Logout</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="page-header">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="page-content">
+                <div class="card-main-box">
+                    <div class="card">
+                        <div class="card-top">
+                            <h2>107,200</h2>
+                            <span class="fa fa-user"></span>
+                        </div>
+                        <div class="progress-line-box">
+                            <small>User activity this month</small>
+                            <div class="progress-line">
+                                <div class="progress one" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <h2>340,230</h2>
+                            <span class="fa fa-eye"></span>
+                        </div>
+                        <div class="progress-line-box">
+                            <small>Page views</small>
+                            <div class="progress-line">
+                                <div class="progress two" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <h2>$653,200</h2>
+                            <span class="fa fa-shopping-cart"></span>
+                        </div>
+                        <div class="progress-line-box">
+                            <small>Monthly revenue growth</small>
+                            <div class="progress-line">
+                                <div class="progress three" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <h2>47,500</h2>
+                            <span class="fa fa-envelope"></span>
+                        </div>
+                        <div class="progress-line-box">
+                            <small>New E-mails received</small>
+                            <div class="progress-line">
+                                <div class="progress four" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="records table-responsive">
+                    <div class="record-header">
+                        <div class="add">
+                            <span>Id Name</span>
+                            <select name="" id="">
+                                <option value="">ID</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <input type="search" placeholder="Search" class="record-search">
+                            <select name="" id="">
+                                <option value="">Status</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
